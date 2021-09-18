@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1,
+h2 {
+	font-family: "Amatic SC", cursive;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 5px -5px 5px blue;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.navigation {
+	text-align: left;
+	margin: 10px 20px;
+}
+
+img {
+	vertical-align: top;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+	font-family: "Lobster", cursive;
+	color: darkblue;
+	font-size: 110%;
+	word-spacing: 5px;
+}
+
+.menu ol {
+	font-family: "Lobster", cursive;
+	color: darkblue;
+	font-size: 110%;
+	margin: 10px 20px;
+}
+
+a :hover {
+	text-decoration: none;
+}
+
+p {
+	font-family: "Lobster", cursive;
+	margin: 10px 30px;
+	text-indent: 20px;
+	word-spacing: 5px;
+}
+
+footer {
+	background-color: green;
+	margin: 20px -10px -10px -10px;
+}
+
+header {
+	background-color: green;
+	margin: -10px;
+}
+
+body {
+	background-color: blanchedalmond;
+	font-size: 18px;
+	font-style: italic;
+}
+
+ol,
+ul {
+	font-family: "Lobster", cursive;
+	margin-left: 40px;
+}
+
+.text-eight-image,
+.text-seven-image,
+.text-six-image,
+.text-five-image,
+.text-four-image,
+.text-thret-image,
+.text-two-image,
+.text-one-image {
+	text-align: center;
+}
+
+img {
+	max-width: 1000px;
+	width: 100%;
+}
+
+footer a {
+	text-align: left;
+	margin: 10px 20px;
+}
